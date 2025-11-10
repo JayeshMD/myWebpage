@@ -30,8 +30,7 @@ latest_posts:
 I am a PhD. candidate at <a href="http://www.ae.iitm.ac.in">Department of Aerospace Engineering</a>, <a href="https://www.iitm.ac.in">IIT Madras</a>.
 I work with [Prof. R. I. Sujith](http://www.ae.iitm.ac.in/~sujith/) on data-driven modeling of thermoacoustic systems.
 Severe conditions within thermoacoustic systems (combustors) limit the number of observed variables.
-We work on integrating tools from nonlinear dynamics and machine learning algorithms to model thermoacoustic systems.
-Despite the focus on thermoacoustic systems, the proposed framework can be readily applied to a variety of dynamical systems.
+I work on integrating tools from nonlinear dynamics and machine learning algorithms to model a variety of dynamical systems, including thermoacoustic systems.
 
 I also enjoy scientific computing.
 My master's thesis focused on LES simulation of a methane-air flame for a slot-stabilized burner, under the guidance of [Prof. Santosh Hemchandra](https://aero.iisc.ac.in/people/santosh-hemchandra/). The objective of the study was to understand the effect of oscillation on mixture composition and flame extinction, and to validate the solver.
@@ -41,4 +40,5 @@ Apart from mechanical sciences, I am also engrossed in learning computer science
 
 I go for long-distance running, cycling, and recently completed the full (42 km) <a href="https://www.thechennaimarathon.com">Chennai marathon 2025</a>.
 I engage in technical activities such as building computers, carpentry, and scooter repair. 
+
 

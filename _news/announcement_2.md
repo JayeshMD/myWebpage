@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Recived Institute Research Award, IIT Madras.
+Received the Institute Research Award, IIT Madras.
