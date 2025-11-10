@@ -3,20 +3,18 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Jayesh
+middle_name: M.
+last_name: Dhadphale
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You can reach me via email or LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal website of Jayesh M. Dhadphale. I work on data-driven modeling, nonlinear dynamics, thermoacoustics, combustion.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Jayesh, JayeshMD, Jayesh M. Dhadphale, Jayesh Dhadphale, JMD, Machine learning, ML, Artificial Intiligance, AI, Neural ODE, Phase space reconstruction, model adaptive phase space reconstruction, MAPSR, thermoacoustics, CFD, combustion, Nand2Tetris, FPGA # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 𝐉𝐃 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://www.jayeshdhadphale.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -86,8 +84,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Curiosity # blog_name will be displayed in your blog page
+blog_description: Exploration for deeper understanding.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -110,7 +108,7 @@ giscus:
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  dark_theme: dark # name of the dark color scheme (preferred works well with al-folio dark mode)
+  dark_theme: #dark # name of the dark color scheme (preferred works well with al-folio dark mode)
   light_theme: light # name of the light color scheme (preferred works well with al-folio light mode)
   emit_metadata: 0
   lang: en
@@ -122,13 +120,13 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -264,8 +262,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Dhadphale]
+  first_name: [Jayesh, M.]
 
   style: apa
   locale: en
@@ -287,6 +285,7 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+  bibliography_group_tag: h4
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
@@ -313,6 +312,7 @@ filtered_bibtex_keywords:
     google_scholar_id,
     html,
     inspirehep_id,
+    my_publication,
     pdf,
     poster,
     preview,
@@ -530,10 +530,10 @@ third_party_libraries:
     version: "1.1.0"
   mermaid:
     integrity:
-      js: "sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
+      js: "B+N9+pezN8zIU2XVft35m5cG8J2ztZsmDQMzsjs0PEs="
     url:
       js: "https://cdn.jsdelivr.net/npm/mermaid@{{version}}/dist/mermaid.min.js"
-    version: "10.7.0"
+    version: "11.12.0"
   photoswipe:
     integrity:
       js: "sha256-VCBpdxvrNNxGHNuTdNqK9kPFkev2XY7DYzHdmgaB69Q="
