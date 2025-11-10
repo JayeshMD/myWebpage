@@ -10,24 +10,24 @@ related_publications: true
 #giscus_comments: true
 ---
 
-Flame speed is sensitive to strain rate and curvature of the flame surface.
-Slot stabilized flame have curvature and strain rate variation along the flame surface.
-Hence we study the variation of the flame speed with this two parameters for steady unperturbed slot stabilized flame.
+Flame speed is sensitive to both the strain rate and the curvature of the flame surface.
+Slot-stabilized flames have curvature and strain rate variation along the flame surface.
+Hence, we investigate the variation of the flame speed with these two parameters for a steady, unperturbed slot-stabilized flame.
 
-Local quenching of reactions on the flame surface is of serious concern in lean combustion devices which is directly related to net heat release rate and performance of the system.
-Steady flammability limit based extinction criterion has found to be more restrictive and demands unnecessary high equivalence ratio {% cite SANKARAN200277 %}.
-{% cite SANKARAN200277 %} have suggested the concept of dynamic flammability limit, so as to include effect of flow time scale(strain rate) and equivalence
+Local quenching of reactions on the flame surface is a significant concern in lean combustion devices, directly related to the net heat release rate and the overall performance of the system.
+A steady flammability limit-based extinction criterion is more restrictive and demands an unnecessarily high equivalence ratio {% cite SANKARAN200277 %}.
+{% cite SANKARAN200277 %} have suggested the concept of dynamic flammability limit, to include the effect of flow time scale(strain rate) and equivalence
 ratio perturbation on flammability limit.
 
-{% cite BANSAL2007404 %} have extended the concept of dynamic flammability limit. They
-have studied counter-flow premixed flame configuration subjected to various strain rates and has successfully incorporated various time scales in combustion to make extinction criteria more generalized.
-They also have proposed a Dynamic Flammability Limit Extension (DFLE) as a function of non-dimensional frequency (η).
-{% cite BANSAL2007404 %} work is mainly focused on counter flow configuration.
-Here, we study applicability of this extinction criteron to 2D slot stabilized flame.
+{% cite BANSAL2007404 %} have extended the concept of dynamic flammability limit.
+They have studied counterflow premixed flame configuration subjected to various strain rates and have successfully incorporated various time scales in combustion to make extinction criteria more generalized.
+They also have proposed a Dynamic Flammability Limit Extension (DFLE) as a function of non-dimensional frequency ($\eta$).
+{% cite BANSAL2007404 %}'s work is mainly focused on counterflow configuration.
+Here, we study the applicability of this extinction criterion to a 2D slot-stabilized flame.
 
 ### Case setup
 
-The fluid domain configuration is shown in the following figure with initial condition for various flow variables.
+The fluid domain configuration is illustrated in the following figure, along with the initial conditions for various flow variables.
 <div class="row">
     <div class="col-sm-5 mt-3 mt-md-0">
             {% include figure.liquid loading="eager" path="assets/img/projects/ME/Schematic.png" title="Schematic" class="img-fluid rounded z-depth-1"%}
@@ -52,12 +52,12 @@ The fluid domain configuration is shown in the following figure with initial con
     </div>
 </div>
 
-The no-slip boundary condition is applied at the wall and non-reflecting boundary condition is applied at the outlet.
-The computational domain is decomposed onto multiblock structured grid with 2.4 million grid points and 965 blocks.
+The no-slip boundary condition is applied at the wall, and the non-reflecting boundary condition is applied at the outlet.
+The computational domain is decomposed onto a multiblock structured grid with 2.4 million grid points and 965 blocks.
 
 ### Steady state
-The steady state solution is obtain for equivalance ration of $\phi=0.6$.
-Some of the flow varibales at steady state are shown in the following figures.
+The steady-state solution is obtained for an equivalence ratio of $\phi=0.6$.
+Some of the steady-state flow variables are illustrated in the following figures.
 
 <div class="row justify-content-center">
     <div class="col-sm-5 mt-3 mt-md-0">
@@ -65,7 +65,7 @@ Some of the flow varibales at steady state are shown in the following figures.
     </div>
 </div>
 <div class="caption">
-    Velocity field overlapped over themperature field.
+    The velocity field is overlaid on the temperature field.
 </div>
 
 <div class="row">
@@ -80,7 +80,7 @@ Some of the flow varibales at steady state are shown in the following figures.
    Flame speed $S_L$ as a function of curvature $C$ and strain rate $\kappa$ over the flame.
 </div>
 
-Analyzed the flame speed $S_L$, flame curvature $C$, and strain rate $\kappa$ at 350 K contour for steady state i.e. without equivalence ratio perturbation.
+Analyzed the flame speed $S_L$, flame curvature $C$, and strain rate $\kappa$ at 350 K contour for steady state, i.e., without equivalence ratio perturbation.
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
             {% include figure.liquid loading="eager" path="assets/img/projects/ME/Markstein.png" title="Markstein.png" class="img-fluid rounded z-depth-1" %}
@@ -90,14 +90,15 @@ Analyzed the flame speed $S_L$, flame curvature $C$, and strain rate $\kappa$ at
     </div>
 </div>
 <div class="caption">
-   Sensitivity of flame speed to strain rate is the Markstein length $L_u$ is showed in the left plot and $L_u$ is marked in the right plot which close to linearly extrapolated Markstein length.
+   The sensitivity of flame speed to strain rate, i.e., the Markstein length $L_u$, is shown in the left figure.
+    In the right figure, $L_u$ is marked with a red asterisk and is close to the linearly extrapolated Markstein length.
 </div>
 
-Further we found the Markstein's length is in close agreement with the experimental study by {% cite VAREA2012577 %} as shown in the above figure.
+Furthermore, we found that Markstein's length is in close agreement with the experimental study by {% cite VAREA2012577 %}, as shown in the above figure.
 
 ### Perturbed Cases
 
-We study the behaviour of the flmae under the equivalence ratio perturbation
+We study the behaviour of the flame under the equivalence ratio perturbation
 and with three normalized perturbation amplitudes ϵ = 0.05, 0.2, 0.4.
 
 <div class="row justify-content-center">
@@ -125,12 +126,12 @@ and with three normalized perturbation amplitudes ϵ = 0.05, 0.2, 0.4.
     </div>
 </div>
 <div class="caption">
-   Deviation of equivalance ratio $\phi$ from dynamic flammability limit $\phi_t$ i.e. ($\phi-\phi_t$), temperature(K), hear release rate contours and velocity vector field for different phase angles at inlet (a) $0^{\circ}$, (b) $90^{\circ}$, (c) $180^{\circ}$, (d) $270^{\circ}$ ($\bar{\phi}=0.6$, $\epsilon=0.4$, $f=60Hz$)
+   Deviation of equivalance ratio $\phi$ from dynamic flammability limit $\phi_t$ i.e. ($\phi-\phi_t$), temperature(K), hear release rate contours and velocity vector field for different phase angles at inlet (a) $0^{\circ}$, (b) $90^{\circ}$, (c) $180^{\circ}$, (d) $270^{\circ}$ ($\bar{\phi}=0.6$, $\epsilon=0.4$, $f=60Hz$).
 </div>
 
-In analysis for perturbed case, each case is plotted with normalized minimum equivalence ratio extension below steady flammability limit and normalized frequency, to locate case either in flammable or non-flammable region.
-Case with ϵ = 0.05 lie in flammable region where ϵ = 0.2 and 0.4 lies in non-flammable region. But, no extinction is found out in any of the cases.
-In order to understand this flame behaviour, combined effect of strain rate and curvature on flammability limit needs to be considered which can be taken as future work.
+In the analysis for the perturbed case, each case is plotted with the normalized minimum equivalence ratio extension below the steady flammability limit and the normalized frequency to locate the case in either the flammable or non-flammable region.
+The case with ϵ = 0.05 lies in the flammable region, where ϵ = 0.2 and 0.4 lie in the non-flammable region. But no extinction is found in any of the cases.
+To understand this flame behavior, the combined effect of strain rate and curvature on the flammability limit needs to be considered, which can be explored as future work.
 
 <p>&copy; {{ site.time | date: '%Y' }} {{ page.author}}. All rights reserved.</p>
 
