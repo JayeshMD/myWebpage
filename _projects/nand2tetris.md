@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Nand2Tetris
 description: Building a computer starting with Nand gate
 img: assets/img/projects/nand2tetris/nand2tetris.png
