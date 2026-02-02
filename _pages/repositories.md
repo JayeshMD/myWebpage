@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: repositories
 description: Repositories published as a part of research work and learning new things.   
-nav: true
+nav: false
 nav_order: 4
 ---
 
